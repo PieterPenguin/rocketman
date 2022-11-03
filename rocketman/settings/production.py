@@ -21,7 +21,7 @@ CACHES = {
 DATABASES = {
     "default": {
         "ENGINE": 'django.db.backends.postgresql_psycopg2',
-        "NAME": 'PorfolioDaTabase',
+        "NAME": 'portfolio',
         "USER": 'Pieter',
         "PASSWORD": 'xfHjB^F2p9s*zhqFT6cNx2',
         "HOST": 'localhost',
