@@ -59,6 +59,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django.contrib.sitemaps',
+    'wagtailcaptcha',
 
     'widget_tweaks',
     'django_extensions',

@@ -6,6 +6,7 @@ from wagtail.admin.edit_handlers import FieldPanel, InlinePanel
 from wagtail.contrib.forms.models import AbstractEmailForm, AbstractFormField
 from wagtail.core.fields import RichTextField
 from wagtail.images.edit_handlers import ImageChooserPanel
+from wagtailcaptcha.models import WagtailCaptchaEmailForm
 
 FORM_FIELD_CHOICES = (
     ('singleline', _('Single line text')),
